@@ -1,0 +1,68 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Allowed virtual machine size SKUs",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+  "scope": "/providers/Microsoft.Management/managementGroups/TITAN",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedSKUs": {
+    "value": [
+     "standard_b2ms",
+     "standard_b2s",
+     "standard_b4ms",
+     "standard_b8ms",
+     "standard_d2_v3",
+     "standard_d2_v4",
+     "standard_d2_v5",
+     "standard_d2a_v4",
+     "standard_d2ds_v4",
+     "standard_d2d_v4",
+     "standard_d2d_v5",
+     "standard_d2ds_v5",
+     "standard_d2s_v3",
+     "standard_d2s_v4",
+     "standard_d2s_v5",
+     "standard_d3_v2",
+     "standard_d4_v3",
+     "standard_d4_v4",
+     "standard_d4_v5",
+     "standard_d4s_v3",
+     "standard_d4s_v4",
+     "standard_d4s_v5",
+     "standard_e2_v4",
+     "standard_e2_v5",
+     "standard_e2_v3",
+     "standard_e2s_v4",
+     "standard_e2s_v5",
+     "standard_e2s_v3",
+     "standard_e4_v3",
+     "standard_e4_v4",
+     "standard_e4_v5",
+     "standard_e4s_v4",
+     "standard_e4s_v5",
+     "standard_e4s_v3",
+     "standard_f4s_v2",
+     "standard_f2s_v2"
+    ]
+   }
+  },
+  "metadata": {
+   "assignedBy": "Konstantinos Chalkos",
+   "parameterScopes": {
+    "listOfAllowedSKUs": "/providers/Microsoft.Management/managementGroups/TITAN"
+   },
+   "createdBy": "83d75c69-c184-419f-bccb-3355567876fb",
+   "createdOn": "2022-12-05T08:58:24.2846605Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/TITAN/providers/Microsoft.Authorization/policyAssignments/becdb6ca6b5d43d88f4ec7b7",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "becdb6ca6b5d43d88f4ec7b7"
+}
